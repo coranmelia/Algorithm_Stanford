@@ -7,6 +7,17 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+
+/* *************************************************************************************
+ * Huffman Code
+ * Algorithm that reconstruct a list of alphabets/code into variable-length code
+ *
+ * Time Complexity: O(n log n)
+ *
+ * @author Cora Wang
+ *
+ * **************************************************************************************/
+
 public class Huffman {
     public static int maxDepth(HuffmanNode root)
     {

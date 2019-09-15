@@ -6,6 +6,21 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+/* *************************************************************************************
+ * KCluster Algorithm
+ *
+ * Algorithm that groups vertices into k clusters and computes the max-spacing distance
+ * in the graph
+ *
+ * @return maxDistance
+ *
+ * Time Complexity:
+ *
+ * @author Cora Wang
+ *
+ * **************************************************************************************/
+
+
 public class KClustering {
     private int numV; // number of vertices
     private static int maxDistance; // the final maximum distance

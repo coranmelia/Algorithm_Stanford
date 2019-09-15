@@ -2,6 +2,17 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
+/* *************************************************************************************
+ * Kruskal's algorithm
+ * Algorithm that computes a minimum-spanning tree and output the total weight
+ *
+ * Time Complexity:
+ *
+ * @author Cora Wang
+ *
+ * **************************************************************************************/
+
+
 public class Kruskal{
     // A class to represent a graph edge
     class Edge implements Comparable<Edge> {
